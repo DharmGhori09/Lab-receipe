@@ -1,0 +1,151 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e0e0e0 100%);
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-top: 20px;
+    color: #ff6f61;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  #search {
+    margin: 20px auto;
+    padding: 12px;
+    width: 80%;
+    max-width: 400px;
+    border: 2px solid #ff6f61;
+    border-radius: 8px;
+    font-size: 16px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  #searchBtn {
+    padding: 12px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 8px;
+    background: #ff6f61;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+  }
+  
+  #searchBtn:hover {
+    background: #ff3d36;
+    transform: scale(1.05);
+  }
+  
+  #results {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  #results > div {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    margin: 15px;
+    padding: 20px;
+    width: 300px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  #results img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  #results h2 {
+    font-size: 20px;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  #results p {
+    color: #666;
+    font-size: 14px;
+  }
+  
+  #results a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 12px 20px;
+    background: #ff6f61;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background 0.3s, transform 0.3s;
+  }
+  
+  #results a:hover {
+    background: #ff3d36;
+    transform: scale(1.05);
+  }
+  
+  #results > div:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+
+  /* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  #search {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  #searchBtn {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #results {
+    margin-top: 20px;
+  }
+  
+  .meal-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .meal-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .meal-card a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .meal-card a:hover {
+    background-color: #0056b3;
+  }
+  
